@@ -48,8 +48,7 @@
   width: 100%;
   height: 100vh;
   /*무조건 화면 꽉 차게 억지로 늘리기*/
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .main-video__txt {
   font-size: 78px;
@@ -80,8 +79,7 @@
   justify-content: center;
   align-items: center;
   /* name duration timing-function delay iteration-count direction fill-mode;*/
-  -webkit-animation: arrow-move 0.5s ease infinite alternate;
-          animation: arrow-move 0.5s ease infinite alternate;
+  animation: arrow-move 0.5s ease infinite alternate;
 }
 .main-video .arrow .material-icons {
   font-size: 45px;
@@ -304,8 +302,7 @@
 .platform .platform-list li .img-box img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: all 0.75s ease;
 }
 .platform .platform-list li .sticker {
@@ -358,15 +355,6 @@
   font-size: 48px;
 }
 
-@-webkit-keyframes arrow-move {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(30px);
-  }
-}
-
 @keyframes arrow-move {
   0% {
     transform: translateY(0);
@@ -398,8 +386,7 @@
 }
 .partner .content .img {
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 100%;
   border-radius: 60px;
 }/*# sourceMappingURL=main.css.map */
